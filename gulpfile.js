@@ -13,6 +13,7 @@ const options = {
 gulp.task('scripts', () => {
     return gulp.src(`${options.src}/js/**/*.js`)
         .pipe(plugins.eslint())
+        .pipe(plugins.eslint.format())
         .pipe(plugins.eslint.failAfterError())
         .pipe(plugins.sourcemaps.init())
         .pipe(plugins.concat('all.min.js'))
