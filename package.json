@@ -18,10 +18,12 @@
   "homepage": "https://github.com/firstnecron/tt-using-gulp#readme",
   "devDependencies": {
     "del": "^2.2.2",
+    "eslint-config-xo": "^0.17.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
     "gulp-csso": "^2.0.0",
+    "gulp-eslint": "^3.0.1",
     "gulp-if": "^2.0.2",
     "gulp-image": "^2.7.5",
     "gulp-load-plugins": "^1.5.0",
